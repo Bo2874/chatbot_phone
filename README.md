@@ -36,7 +36,7 @@ This project is a phone consulting chatbot that leverages Retrieval-Augmented Ge
 
 **Databases:**  
 - [Milvus] – vector database for embeddings + hybrid search  
-- [PostgreSQL] – relational database for structured queries  
+- [PostgreSQL] – store processed text 
 
 **Core AI / NLP:**  
 - [LangChain] – framework for Retrieval-Augmented Generation (RAG)  
@@ -47,8 +47,8 @@ This project is a phone consulting chatbot that leverages Retrieval-Augmented Ge
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/your-username/phone-consultation-chatbot.git
-   cd phone-consultation-chatbot
+   git clone https://github.com/Bo2874/chatbot_phone.git
+   cd chatbot_phone
    ```
 
 2. **Create a virtual environment**:
